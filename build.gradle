@@ -26,6 +26,8 @@ android {
         debug {
             buildConfigField("String", "API_KEY", apiProperties['API_KEY'])
         }
+        applicationVariants {
+        }
         release {
             minifyEnabled false
             buildConfigField("String", "API_KEY", apiProperties['API_KEY'])
